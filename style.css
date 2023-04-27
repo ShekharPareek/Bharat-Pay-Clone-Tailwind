@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slick-slide {
+    display: flex !important;
+    height: fit-content;
+}
+
+.slick-dots>li {
+    border: 1px solid gray;
+    width: 32px;
+    height: 4px;
+    color: black;
+    font-size: 10px;
+    background: gray;
+}
+
+.slick-dots>li button {
+    display: none;
+}
+
+.slick-dots li .slick-active {
+    background-color: black;
+}
